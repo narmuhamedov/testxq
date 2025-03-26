@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.views.generic import TemplateView
 
-#CBV
+#CBV8
 
 class FirstLessonView(TemplateView):
     template_name = 'index.html'
