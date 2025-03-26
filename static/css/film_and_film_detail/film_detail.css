@@ -1,0 +1,61 @@
+/* Общие стили для страницы фильма */
+.film-detail {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+.film-info {
+    display: flex;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.film-poster {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.film-text {
+    max-width: 600px;
+}
+
+.film-text h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.film-text p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Стили для комментариев */
+.comments {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.comment-list .comment {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+}
+
+.comment-list .comment p {
+    font-size: 14px;
+}
+
+.comment-list .comment strong {
+    font-weight: bold;
+}
